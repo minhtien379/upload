@@ -1,0 +1,367 @@
+/* Reset và Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 870px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Tab Styles */
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #555;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s;
+}
+
+.tab-btn:hover {
+    color: #2c3e50;
+}
+
+.tab-btn.active {
+    color: #2ea44f;
+    border-bottom-color: #2ea44f;
+    font-weight: bold;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Upload Area Styles */
+.upload-area {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+}
+
+.file-input {
+    display: none;
+}
+
+.file-label {
+    display: block;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.file-label:hover {
+    background-color: #e9ecef;
+}
+
+/* Preview Styles */
+#preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.preview-item {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.preview-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.remove-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0;
+}
+
+/* Gallery Styles */
+#gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.gallery-item {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-item .delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.gallery-item:hover .delete-btn {
+    opacity: 1;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2ea44f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #22863a;
+}
+
+.btn:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Progress Bar Styles */
+.progress-container {
+    width: 100%;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    margin: 20px 0;
+    display: none;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 30px;
+    background-color: #28a745;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    transition: width 0.3s;
+}
+
+/* Result Styles */
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Config Section Styles */
+.config-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.config-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.config-section small {
+    display: block;
+    color: #6c757d;
+    font-size: 0.8em;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.close-modal:hover {
+    color: #333;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Pagination Styles */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+.page-info {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Total Images Info Styles */
+.total-images-info {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.total-images-info i {
+    margin-right: 5px;
+    color: #2ea44f;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+    
+    .upload-area {
+        padding: 15px;
+    }
+    
+    .preview-item, .gallery-item {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .modal-content {
+        width: 90%;
+    }
+
+    .pagination-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

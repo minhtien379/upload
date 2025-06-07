@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://graph.facebook.com/100055918998935/picture?type=large&access_token=6628568379|c1e620fa708a1d5696fb991c1bde5662" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Upload Ảnh lên GitHub</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Ảnh lên GitHub <i class="fa-brands fa-github"></i></h1>
+        <div class="config-section">
+            <h3>Cấu hình GitHub</h3>
+            <div>
+                <label for="githubToken">Personal Access Token:</label>
+                <input type="password" id="githubToken" placeholder="ghp_your_token_here" style="width: 100%; padding: 8px; margin: 5px 0 15px; border: 1px solid #ddd; border-radius: 4px;">
+                <small>Token cần có quyền <code>repo</code> hoặc <code>public_repo</code></small>
+            </div>
+ 
+            <button id="loadImagesBtn" class="btn"><i class="fa-solid fa-rotate"></i> Tải danh sách ảnh</button>
+        </div>
+        
+        <!-- Tab Navigation -->
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="upload-tab"><i class="fa-solid fa-cloud-arrow-up"></i> Upload Ảnh</button>
+            <button class="tab-btn" data-tab="gallery-tab"><i class="fa-solid fa-image"></i> Thư viện Ảnh</button>
+        </div>
+        
+        <!-- Upload Tab -->
+        <div id="upload-tab" class="tab-content active">
+            <div class="upload-area" id="dropArea">
+                <input type="file" id="fileInput" class="file-input" accept="image/*" multiple>
+                <label for="fileInput" class="file-label">Chọn ảnh hoặc kéo thả vào đây</label>
+                <div id="preview"></div>
+                <button id="uploadBtn" class="btn" disabled><i class="fa-solid fa-cloud-arrow-up"></i> Upload Ảnh</button>
+                <div class="progress-container" id="progressContainer">
+                    <div class="progress-bar" id="progressBar">0%</div>
+                </div>
+            </div>
+            
+            <div id="result"></div>
+        </div>
+        
+        <!-- Gallery Tab -->
+        <div id="gallery-tab" class="tab-content">
+            <div id="totalImagesInfo" class="total-images-info">
+                <i class="fa-solid fa-images"></i> Tổng số ảnh: <span id="totalImagesCount">0</span>
+            </div>
+            <div id="gallery-container">
+                <p>Nhấn "Tải danh sách ảnh" để xem tất cả ảnh đã upload</p>
+            </div>
+            <div id="paginationContainer" class="pagination-container" style="display: none;">
+                <button id="prevPageBtn" class="btn" disabled><i class="fa-solid fa-arrow-left"></i></button>
+                <span id="pageInfo" class="page-info">Trang 1/1</span>
+                <button id="nextPageBtn" class="btn" disabled><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Delete Confirmation Modal -->
+    <div id="deleteModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Xác nhận xóa ảnh</h3>
+            <p>Bạn có chắc chắn muốn xóa ảnh này không?</p>
+            <div class="modal-actions">
+                <button id="confirmDeleteBtn" class="btn btn-danger"><i class="fa-solid fa-trash"></i> Xóa</button>
+                <button id="cancelDeleteBtn" class="btn">Hủy</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
