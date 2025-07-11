@@ -34,6 +34,11 @@
       "id": 7,
       "categoryname": "anime",
       "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_anime.json"
+    },
+    {
+      "id": 8,
+      "categoryname": "car",
+      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_car.json"
     }
   ]
 }
