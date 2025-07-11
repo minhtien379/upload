@@ -44,6 +44,11 @@
       "id": 9,
       "categoryname": "animal",
       "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_animal.json"
+    },
+    {
+      "id": 10,
+      "categoryname": "sport",
+      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_sport.json"
     }
   ]
 }
