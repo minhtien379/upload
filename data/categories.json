@@ -4,6 +4,11 @@
       "id": 1,
       "categoryname": "4k",
       "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_4k.json"
+    },
+    {
+      "id": 2,
+      "categoryname": "girl",
+      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_girl.json"
     }
   ]
 }
