@@ -9,6 +9,11 @@
       "id": 2,
       "categoryname": "girl",
       "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_girl.json"
+    },
+    {
+      "id": 3,
+      "categoryname": "nature",
+      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_nature.json"
     }
   ]
 }
