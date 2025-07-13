@@ -3,52 +3,57 @@
     {
       "id": 1,
       "categoryname": "4k",
-      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_4k.json"
+      "path": "data/wallpaper_4k.json"
     },
     {
       "id": 2,
       "categoryname": "girl",
-      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_girl.json"
+      "path": "data/wallpaper_girl.json"
     },
     {
       "id": 3,
       "categoryname": "nature",
-      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_nature.json"
+      "path": "data/wallpaper_nature.json"
     },
     {
       "id": 4,
       "categoryname": "cute",
-      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_cute.json"
+      "path": "data/wallpaper_cute.json"
     },
     {
       "id": 5,
       "categoryname": "games",
-      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_games.json"
+      "path": "data/wallpaper_games.json"
     },
     {
       "id": 6,
       "categoryname": "science",
-      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_science.json"
+      "path": "data/wallpaper_science.json"
     },
     {
       "id": 7,
       "categoryname": "anime",
-      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_anime.json"
+      "path": "data/wallpaper_anime.json"
     },
     {
       "id": 8,
       "categoryname": "car",
-      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_car.json"
+      "path": "data/wallpaper_car.json"
     },
     {
       "id": 9,
       "categoryname": "animal",
-      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_animal.json"
+      "path": "data/wallpaper_animal.json"
     },
     {
       "id": 10,
       "categoryname": "sport",
-      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_sport.json"
+      "path": "data/wallpaper_sport.json"
+    },
+    {
+      "id": 11,
+      "categoryname": "fdf",
+      "path": "data/wallpaper_fdf.json"
     }
   ]
 }
