@@ -29,6 +29,11 @@
       "id": 6,
       "categoryname": "science",
       "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_science.json"
+    },
+    {
+      "id": 7,
+      "categoryname": "anime",
+      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_anime.json"
     }
   ]
 }
