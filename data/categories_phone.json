@@ -14,6 +14,11 @@
       "id": 3,
       "categoryname": "nature",
       "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_nature.json"
+    },
+    {
+      "id": 4,
+      "categoryname": "cute",
+      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_cute.json"
     }
   ]
 }
