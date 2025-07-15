@@ -24,6 +24,11 @@
       "id": 5,
       "categoryname": "games",
       "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_games.json"
+    },
+    {
+      "id": 6,
+      "categoryname": "science",
+      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/wallpaper_science.json"
     }
   ]
 }
