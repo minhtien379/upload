@@ -1,11 +1,6 @@
 {
   "images": [
     {
-      "id": 1,
-      "filename": "wallpaper_sport_1.jpg",
-      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/wallpaper/sport/wallpaper_sport_1.jpg"
-    },
-    {
       "id": 2,
       "filename": "wallpaper_sport_2.jpg",
       "path": "https://raw.githubusercontent.com/minhtien379/upload/main/wallpaper/sport/wallpaper_sport_2.jpg"
@@ -459,6 +454,11 @@
       "id": 92,
       "filename": "wallpaper_sport_92.jpg",
       "path": "https://raw.githubusercontent.com/minhtien379/upload/main/wallpaper/sport/wallpaper_sport_92.jpg"
+    },
+    {
+      "id": 93,
+      "filename": "wallpaper_sport_93.jpg",
+      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/wallpaper/sport/wallpaper_sport_93.jpg"
     },
     {
       "id": 94,
@@ -1349,11 +1349,6 @@
       "id": 317,
       "filename": "wallpaper_sport_317.jpg",
       "path": "https://raw.githubusercontent.com/minhtien379/upload/main/wallpaper/sport/wallpaper_sport_317.jpg"
-    },
-    {
-      "id": 93,
-      "filename": "wallpaper_sport_93.jpg",
-      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/wallpaper/sport/wallpaper_sport_93.jpg"
     }
   ]
 }
