@@ -14,6 +14,11 @@
       "id": 3,
       "categoryname": "thanquocchithuong",
       "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/hh3d_thanquocchithuong.json"
+    },
+    {
+      "id": 4,
+      "categoryname": "tiennghich",
+      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/hh3d_tiennghich.json"
     }
   ]
 }
