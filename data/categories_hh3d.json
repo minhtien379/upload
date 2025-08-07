@@ -19,6 +19,11 @@
       "id": 4,
       "categoryname": "tiennghich",
       "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/hh3d_tiennghich.json"
+    },
+    {
+      "id": 5,
+      "categoryname": "kiemlai",
+      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/hh3d_kiemlai.json"
     }
   ]
 }
