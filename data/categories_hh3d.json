@@ -24,6 +24,11 @@
       "id": 5,
       "categoryname": "kiemlai",
       "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/hh3d_kiemlai.json"
+    },
+    {
+      "id": 6,
+      "categoryname": "daupha",
+      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/hh3d_daupha.json"
     }
   ]
 }
