@@ -34,6 +34,11 @@
       "id": 7,
       "categoryname": "suhuynh",
       "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/hh3d_suhuynh.json"
+    },
+    {
+      "id": 8,
+      "categoryname": "thegioi",
+      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/hh3d_thegioi.json"
     }
   ]
 }
