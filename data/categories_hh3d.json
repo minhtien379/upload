@@ -29,6 +29,11 @@
       "id": 6,
       "categoryname": "daupha",
       "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/hh3d_daupha.json"
+    },
+    {
+      "id": 7,
+      "categoryname": "suhuynh",
+      "path": "https://raw.githubusercontent.com/minhtien379/upload/main/data/hh3d_suhuynh.json"
     }
   ]
 }
